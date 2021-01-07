@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    border: skyblue solid 2px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.logo{
+    height: 50px;
+    }
+
+img{
+    max-height: 100%;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    border: skyblue solid 2px;
+    margin: 10px auto;
+    border-radius: 5px;
+    width: 80%;
+}
+
+li{
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.input-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input{
+    flex-grow: 1;
+    padding: 5px;
+    height: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px silver;
+}
+.container{
+    margin: 10px 0;
+    }
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btns button{
+    border: blue solid 2px;
+    text-transform: uppercase;
+    color: rgb(16, 31, 235);
+    text-shadow: 1px 1px 1px black;
+    transition:.4s;
+}
+.btns button:nth-child(1){
+    background-color: lime;
+}
+.btns button:nth-child(1):hover{
+    background-color: rgb(15, 61, 15);
+    color: cornsilk;
+}
+.btns button:nth-child(2){
+    background-color: fuchsia;
+}
+.btns button:nth-child(2):hover{
+    background-color: rgb(68, 8, 68);
+    color: cornsilk;
+}
